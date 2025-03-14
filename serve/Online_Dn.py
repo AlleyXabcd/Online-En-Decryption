@@ -13,6 +13,7 @@ def encrypt():
     text = data.get('text')
     key = data.get('key')
 
+
     if algorithm == 'Caesar cipher':
         result = caesar_cipher_encrypt(text, key)
     elif algorithm == 'Vigenere Cipher':
